@@ -1,0 +1,93 @@
+Netflix Project – Agile Project Plan
+Challenge 1: What Makes Content Popular on Netflix?
+1. Sprint Goal
+Deliver a complete Netflix content popularity analysis that identifies key characteristics of popular titles and presents clear insights through visualizations and a final report by the end of the sprint.
+
+2. Team & Roles
+Role	Owner	Responsibilities
+Data Lead	Partner A	Data loading, cleaning, EDA, insights
+Visualization & Docs Lead	Partner B	Charts, notebook documentation, README, final report polish
+Shared	Both	Code review, conclusions, Git commits, retrospective
+3. Sprint Backlog / Task Breakdown
+Task ID	Task	Description	Owner	Status	Priority
+T1	Setup Repository	Create GitHub repo, folder structure, initial README	Partner B	To Do	High
+T2	Load & Inspect Data	Load the 3 CSV files, check shapes, dtypes, head/tail, basic info	Partner A	To Do	High
+T3	Data Cleaning	Handle any missing values, duplicates, data type issues	Partner A	To Do	High
+T4	Feature Engineering	Create derived metrics (e.g. watch count per movie, avg rating per movie, genre popularity)	Partner A	To Do	High
+T5	Exploratory Data Analysis	Explore distributions, correlations, top genres, year trends	Partner A	To Do	High
+T6	Visualization 1	Genre popularity (watches + average rating)	Partner B	To Do	High
+T7	Visualization 2	Release year vs popularity	Partner B	To Do	High
+T8	Visualization 3	Rating distribution / Top movies comparison	Partner B	To Do	High
+T9	Business Insights	Write at least 3 clear, data-backed insights	Partner A	To Do	High
+T10	Conclusions & Recommendations	Final conclusions section + business recommendations	Both	To Do	High
+T11	Notebook Documentation	Add clear markdown cells explaining every major step	Partner B	To Do	Medium
+T12	Code Quality	Clean variable names, comments, ensure notebook runs top-to-bottom	Both	To Do	Medium
+T13	Final Review & Export	Review notebook, export PDF/HTML if required, push final version	Both	To Do	High
+T14	Retrospective	Complete team retrospective	Both	To Do	Medium
+4. Kanban Board
+📋 To Do
+
+T1 – Setup Repository (Partner B)
+
+T2 – Load & Inspect Data (Partner A)
+
+T3 – Data Cleaning (Partner A)
+
+T4 – Feature Engineering (Partner A)
+
+T5 – Exploratory Data Analysis (Partner A)
+
+T6 – Visualization 1: Genre Popularity (Partner B)
+
+T7 – Visualization 2: Release Year Trends (Partner B)
+
+T8 – Visualization 3: Ratings & Top Titles (Partner B)
+
+T9 – Business Insights (Partner A)
+
+T10 – Conclusions & Recommendations (Both)
+
+T11 – Notebook Documentation (Partner B)
+
+T12 – Code Quality Check (Both)
+
+T13 – Final Review & Export (Both)
+
+T14 – Retrospective (Both)
+🚧 In Progress
+(Move tasks here when someone starts working on them)
+
+✅ Done
+(Move completed tasks here)
+
+5. Definition of Done
+A task is considered Done when:
+
+Code runs without errors
+Markdown explanation is present (for analysis/visualization tasks)
+Changes are committed to Git with a clear message
+Partner has had a chance to review (or pair-programmed)
+The entire project is Done when:
+
+All cells in the notebook execute successfully from top to bottom
+≥ 3 visualizations are properly labeled
+≥ 3 business insights are clearly stated
+Final conclusions section is complete
+README is up to date
+Repository is pushed to GitHub
+6. Project Risks & Mitigations
+#	Risk	Likelihood	Impact	Mitigation Action
+1	Poor data quality or limited dataset size affects accuracy of conclusions	Medium	High	Perform thorough data cleaning and validation early (T2–T4). Document any limitations clearly in the notebook.
+2	Delays in collaboration or uneven task ownership impact the deadline	Medium	High	Use this Kanban board daily. Hold short 10-minute check-ins. Clearly assign owners and update status frequently.
+7. Suggested Timeline (Example 1-Week Sprint)
+Day	Focus
+Day 1	Repo setup, data loading & cleaning (T1–T3)
+Day 2	Feature engineering + EDA (T4–T5)
+Day 3	Visualizations (T6–T8)
+Day 4	Insights + Conclusions (T9–T10)
+Day 5	Documentation, code polish, final review, retrospective (T11–T14)
+8. Retrospective Template (Complete at End of Sprint)
+What went well?
+What could be improved?
+What should the team continue doing in future projects?
+This plan follows the requirements from the Agile Project Management Assignment and supports the Jupyter Notebook deliverable for Challenge 1.
