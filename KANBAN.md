@@ -36,7 +36,7 @@ Deliver a complete analysis that identifies the key characteristics of popular N
 | Dataset prepared (movies, users, history) | Michael | Yes |
 | Setup GitHub repository & folder structure | Both | Yes |
 | Load & inspect the three CSV files | Michael | Yes |
-| Data cleaning & quality checks | Michael / Michael | Yes |
+| Data cleaning & quality checks | Michael | Yes |
 | Feature engineering (watch counts, avg ratings, etc.) | Michael | Yes |
 | Exploratory Data Analysis | Michael | Yes |
 | Visualization 1 – Genre popularity | Talukder | Yes |
