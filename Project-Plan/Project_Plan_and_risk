@@ -1,15 +1,29 @@
-# Project Plan – Netflix Content Popularity Analysis
+## Project Structure
+── ProjectPlan/
+── data/
 
-| Task | Description | Owner | Status |
-|------|-------------|-------|--------|
-| Data Cleaning | Handle missing values, check for duplicates, and ensure data quality | Michael | Done |
-| EDA | Explore trends, genre patterns, ratings, and viewing behavior | Michael | Done |
-| Visualizations | Create charts showing genre popularity, ratings, and top titles | Talukder | Done |
-| Final Report | Summarize findings, insights, and recommendations in the notebook | Both | Done |
-| Documentation | Add markdown explanations and final conclusions | Talukder | Done |
-| Version Control | Manage branches, commits, and merge into main | Both | Done |
+│   ├── netflix_movies_100.csv
+
+│   ├── users.csv
+
+│   └── watch_history.csv
+
+├── notebooks/
+
+│   └── netflix_popularity_analysis.ipynb
+        └── Visualizations
+├── KANBAN.md
+
+├── README.md
 
 
+---
+
+## Sprint Goal
+
+Deliver a complete Netflix content popularity analysis that identifies key characteristics of popular titles and presents clear business insights through visualizations and a final report.
+
+---
 
 ## Project Risks
 
@@ -18,3 +32,30 @@
 
 2. **Delays in team collaboration may impact deadlines.**  
    Mitigation: Conduct short daily check-ins and track progress on the Kanban board.
+
+---
+
+## How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/MichaelNjuki/MICHAEL-TALUKDER.git
+cd MICHAEL-TALUKDER
+
+# Install dependencies
+pip install pandas numpy matplotlib seaborn
+
+# Open the notebook
+jupyter notebook notebooks/netflix_popularity_analysis.ipynb
+
+RetrospectiveWhat went well?
+Clear task division between data analysis and visualizations
+Effective use of branches
+Regular commits and successful merge into main
+What could be improved?
+Saving files before committing to avoid sync issues
+Better coordination when pulling changes between branches
+What should the team continue doing?
+Using feature branches
+Committing after each major step
+Running the full notebook before merging
