@@ -1,102 +1,90 @@
-# MICHAEL-TALUKDER
+## Netflix Content Popularity Analysis
 
-Netflix Content Popularity Analysis
-Challenge 1: What Makes Content Popular on Netflix?
+**Challenge 1: What Makes Content Popular on Netflix?**
 
-Business Question:
+**Business Question:**  
 What characteristics are most common among popular Netflix titles?
 
-Project Overview
+---
+
+## Project Overview
+
 This project analyzes a synthetic Netflix-style dataset to identify the characteristics that drive content popularity. We explore patterns across genre, release year, ratings, and viewing behavior to generate actionable business insights.
 
-Team:
+**Team:**  
+- Michael (Data loading, cleaning, EDA, insights)  
+- Talukder (Visualizations, documentation, conclusions)
 
-Partner A (Data Cleaning, EDA, Insights)
-Partner B (Visualizations, Documentation, Reporting)
-Dataset
-We use three related CSV files:
+---
 
-File	Description	Rows
-netflix_movies_100.csv	100 famous movies (1990–2019) with genre and release year	100
-users.csv	User profiles	80
-watch_history.csv	User viewing history + ratings	~1,176
-Key Columns
-Movies
+## Dataset
 
-movie_id, title, genre, release_year
-Users
+| File | Description | Rows |
+|------|-------------|------|
+| `data/netflix_movies_100.csv` | 100 famous movies (1990–2019) with genre and release year | 100 |
+| `data/users.csv` | User profiles | 80 |
+| `data/watch_history.csv` | User viewing history + ratings | 1,176 |
 
-user_id, name
-Watch History
+---
 
-history_id, user_id, movie_id, rating (1–5)
-Project Structure
-├── data/
+## Project Structure
+── ProjectPlan/
+── data/
+
 │   ├── netflix_movies_100.csv
-│   ├── users.csv
-│   └── watch_history.csv
-├── notebooks/
-│   └── netflix_popularity_analysis.ipynb
-├── images/                  # saved visualizations
-├── README.md
-└── project_plan.md
-Analysis Goals
-Load & Inspect the three datasets
-Clean missing values and ensure data quality
-Explore relationships between genre, release year, rating, and number of watches
-Visualize at least 3 meaningful charts
-Derive at least 3 business insights about what makes content popular
-Conclude with recommendations
-Key Questions We Aim to Answer
-Which genres receive the highest average ratings and most watches?
-Do older or newer titles tend to be more popular?
-Is there a relationship between number of watches and average rating?
-What characteristics appear most frequently among the top-watched titles?
-Tech Stack
-Python 3
-pandas, numpy
-matplotlib / seaborn / plotly
-Jupyter Notebook
-How to Run
-# Clone the repository
-git clone <your-repo-url>
-cd netflix-popularity-analysis
 
-# (Optional) Create virtual environment
-python -m venv venv
-source venv/bin/activate   # or venv\Scripts\activate on Windows
+│   ├── users.csv
+
+│   └── watch_history.csv
+
+├── notebooks/
+
+│   └── netflix_popularity_analysis.ipynb
+
+├── KANBAN.md
+
+├── README.md
+
+
+---
+
+## Sprint Goal
+
+Deliver a complete Netflix content popularity analysis that identifies key characteristics of popular titles and presents clear business insights through visualizations and a final report.
+
+---
+
+## Project Risks
+
+1. **Poor data quality may affect the accuracy of conclusions.**  
+   Mitigation: Perform data validation and cleaning early.
+
+2. **Delays in team collaboration may impact deadlines.**  
+   Mitigation: Conduct short daily check-ins and track progress on the Kanban board.
+
+---
+
+## How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/MichaelNjuki/MICHAEL-TALUKDER.git
+cd MICHAEL-TALUKDER
 
 # Install dependencies
-pip install pandas numpy matplotlib seaborn jupyter
+pip install pandas numpy matplotlib seaborn
 
-# Launch notebook
+# Open the notebook
 jupyter notebook notebooks/netflix_popularity_analysis.ipynb
-Sprint Goal
-Deliver a complete, well-documented analysis that identifies the key characteristics of popular Netflix content and presents clear business insights through visualizations and a final report by the end of the sprint.
 
-Project Risks & Mitigations
-Risk	Impact	Mitigation
-Data quality issues or missing values affect conclusions	High	Perform thorough data cleaning and validation in the first days of the sprint
-Uneven workload or delayed collaboration between partners	Medium	Use the Kanban board daily, hold short check-ins, and clearly assign ownership of tasks
-Deliverables Checklist
-
-Dataset prepared (movies, users, history)
-
-Jupyter Notebook with full analysis
-
-At least 3 visualizations
-
-At least 3 business insights
-
-Final conclusions section
-
-README and project documentation
-
-GitHub repository with version control
-
-(Optional) Exported PDF/HTML of notebook
-Authors
-[Michael Njuki Gichobi]
-[Gulam Rabbi Talukder]
-Course: Netflix Data Analysis Project
-Challenge Selected: Challenge 1 – What Makes Content Popular on Netflix?
+RetrospectiveWhat went well?
+Clear task division between data analysis and visualizations
+Effective use of branches
+Regular commits and successful merge into main
+What could be improved?
+Saving files before committing to avoid sync issues
+Better coordination when pulling changes between branches
+What should the team continue doing?
+Using feature branches
+Committing after each major step
+Running the full notebook before merging
