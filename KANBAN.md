@@ -5,7 +5,7 @@ Deliver a complete analysis that identifies the key characteristics of popular N
 
 ---
 
-## 📋 TO DO
+## TO DO
 
 | Task | Owner | Notes |
 |------|-------|-------|
@@ -13,7 +13,7 @@ Deliver a complete analysis that identifies the key characteristics of popular N
 
 ---
 
-## 🚧 IN PROGRESS
+## IN PROGRESS
 
 | Task | Owner | Started |
 |------|-------|---------|
@@ -21,7 +21,7 @@ Deliver a complete analysis that identifies the key characteristics of popular N
 
 ---
 
-## 👀 IN REVIEW
+## IN REVIEW
 
 | Task | Owner | Reviewer |
 |------|-------|----------|
@@ -29,7 +29,7 @@ Deliver a complete analysis that identifies the key characteristics of popular N
 
 ---
 
-## ✅ DONE
+##  DONE
 
 | Task | Owner | Completed |
 |------|-------|-----------|
