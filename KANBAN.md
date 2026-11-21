@@ -9,20 +9,7 @@ Deliver a complete analysis that identifies the key characteristics of popular N
 
 | Task | Owner | Notes |
 |------|-------|-------|
-| Setup GitHub repository & folder structure | Partner B | Include README |
-| Load & inspect the three CSV files | Partner A | Shape, dtypes, missing values |
-| Data cleaning & quality checks | Partner A | Handle nulls, duplicates |
-| Feature engineering (watch counts, avg ratings, etc.) | Partner A | Create analysis-ready tables |
-| Exploratory Data Analysis | Partner A | Genre, year, rating patterns |
-| Visualization 1 – Genre popularity | Partner B | Watches + average rating by genre |
-| Visualization 2 – Release year trends | Partner B | Popularity over time |
-| Visualization 3 – Top titles / Rating distribution | Partner B | Clear labels and titles |
-| Write ≥ 3 business insights | Partner A | Data-backed |
-| Conclusions & recommendations | Both | Final section of notebook |
-| Add markdown documentation throughout notebook | Partner B | Explain every major step |
-| Code quality & ensure notebook runs top-to-bottom | Both | Descriptive variable names |
-| Final review, export (optional PDF/HTML), push to GitHub | Both | |
-| Team retrospective | Both | Use template in project_plan.md |
+| | | |
 
 ---
 
@@ -30,7 +17,7 @@ Deliver a complete analysis that identifies the key characteristics of popular N
 
 | Task | Owner | Started |
 |------|-------|---------|
-| *(Move tasks here when work begins)* | | |
+| | | |
 
 ---
 
@@ -38,7 +25,7 @@ Deliver a complete analysis that identifies the key characteristics of popular N
 
 | Task | Owner | Reviewer |
 |------|-------|----------|
-| *(Optional – use if you want a review step)* | | |
+| | | |
 
 ---
 
@@ -46,20 +33,27 @@ Deliver a complete analysis that identifies the key characteristics of popular N
 
 | Task | Owner | Completed |
 |------|-------|-----------|
-| Dataset prepared (movies, users, history) | Both | Yes |
+| Dataset prepared (movies, users, history) | Michael | Yes |
+| Setup GitHub repository & folder structure | Both | Yes |
+| Load & inspect the three CSV files | Michael | Yes |
+| Data cleaning & quality checks | Michael / Michael | Yes |
+| Feature engineering (watch counts, avg ratings, etc.) | Michael | Yes |
+| Exploratory Data Analysis | Michael | Yes |
+| Visualization 1 – Genre popularity | Talukder | Yes |
+| Visualization 2 – Release year trends | Talukder | Yes |
+| Visualization 3 – Top titles / Rating distribution | Talukder | Yes |
+| Write ≥ 3 business insights | Talukder | Yes |
+| Conclusions & recommendations | Both | Yes |
+| Add markdown documentation throughout notebook | Talukder | Yes |
+| Code quality & ensure notebook runs top-to-bottom | Both | Yes |
+| Final review and push to GitHub | Both | Yes |
+| Team retrospective | Both | Yes |
 
 ---
 
-### How to use this board
-1. Copy tasks from **To Do** → **In Progress** when you start them.
-2. Move to **Done** only when the Definition of Done is met.
-3. Update the board at least once per day (or after every work session).
-4. Keep ownership clear so both partners know who is responsible for what.
-
----
-
-**Definition of Done (quick reminder)**
+### Done
 - Code runs without errors
 - Markdown explanation present
 - Committed to Git
 - Partner has visibility / chance to review
+
