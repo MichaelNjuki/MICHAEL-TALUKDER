@@ -48,13 +48,16 @@ pip install pandas numpy matplotlib seaborn
 # Open the notebook
 jupyter notebook notebooks/netflix_popularity_analysis.ipynb
 
-RetrospectiveWhat went well?
+Retrospective:
+What went well?
 Clear task division between data analysis and visualizations
 Effective use of branches
 Regular commits and successful merge into main
+
 What could be improved?
 Saving files before committing to avoid sync issues
 Better coordination when pulling changes between branches
+
 What should the team continue doing?
 Using feature branches
 Committing after each major step
