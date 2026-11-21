@@ -1,0 +1,20 @@
+# Project Plan – Netflix Content Popularity Analysis
+
+| Task | Description | Owner | Status |
+|------|-------------|-------|--------|
+| Data Cleaning | Handle missing values, check for duplicates, and ensure data quality | Michael | Done |
+| EDA | Explore trends, genre patterns, ratings, and viewing behavior | Michael | Done |
+| Visualizations | Create charts showing genre popularity, ratings, and top titles | Talukder | Done |
+| Final Report | Summarize findings, insights, and recommendations in the notebook | Both | Done |
+| Documentation | Add markdown explanations and final conclusions | Talukder | Done |
+| Version Control | Manage branches, commits, and merge into main | Both | Done |
+
+
+
+## Project Risks
+
+1. **Poor data quality may affect the accuracy of conclusions.**  
+   Mitigation: Perform data validation and cleaning early.
+
+2. **Delays in team collaboration may impact deadlines.**  
+   Mitigation: Conduct short daily check-ins and track progress on the Kanban board.
