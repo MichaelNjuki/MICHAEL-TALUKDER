@@ -1,5 +1,6 @@
 Github Accounts:
 https://github.com/MichaelNjuki/MICHAEL-TALUKDER
+https://github.com/G-R-Talukder/MICHAEL-TALUKDER
 
 ## Netflix Content Popularity Analysis
 
